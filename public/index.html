@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="https://in.images.search.yahoo.com/search/images;_ylt=Awrx.Qme.HBmq0obwxW7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=weather+logo&fr2=piv-web&type=E210IN885G0&fr=mcafee#id=1&iurl=https%3A%2F%2Fwww.logolynx.com%2Fimages%2Flogolynx%2Fe3%2Fe3f4d274d02fc8c0c1a28e9ae45b0e59.jpeg&action=click" type="">
+</head>
+<body>
+  <div class="container-fluid main_menu">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <nav class="navbar navbar-expand-lg ">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-snowflake"></i>YashikaWeather<i class="fa-solid fa-snowflake"></i></a>
+                
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href=/weather>Weather</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">About</a>
+                      </li>
+>                        
+                      
+                      
+                    
+                    
+                  </ul>
+                  
+                </div>
+              </nav> 
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+      <div class="row">
+          <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+              <!--left side div-->
+              <div class="col-md-6 col-12 main_header_left">
+                   <p>Welcome to weather app</p>
+                   <h1>Get the Latest <span class="text_clr"> Weather </span> Info Of Your City</h1>
+                   <a href="/weather"><button>check now</button></a>
+              </div>
+
+
+              <!--right side div-->
+              <div class="col-md-6 col-12 main_header_right"> 
+                <div id="carouselExampleIndicators" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://www.pexels.com/photo/photography-of-rainbow-during-cloudy-sky-757239/" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://www.pexels.com/photo/crop-field-under-rainbow-and-cloudy-skies-at-dayime-1542495/" class=" w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                      <img src="https://www.pexels.com/photo/crop-field-under-rainbow-and-cloudy-skies-at-dayime-1542495/" class=" w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--footer code-->
+
+    <footer>
+      <p>created with love by yashika patel</p>
+    </footer>
+</body>
+</html>
